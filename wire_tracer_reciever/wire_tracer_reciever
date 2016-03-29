@@ -1,0 +1,27 @@
+Reference, Quantity, Value, Footprint, Datasheet, digikey
+BT1 ,1,Battery_9v,Wire_Pads:SolderWirePad_2x_1-2mmDrill,,BS6I-ND
+C1 ,1,1uF,Resistors_SMD:R_1206_HandSoldering,,1276-1068-1-ND
+C2 C6 ,2,100pF,Resistors_SMD:R_1206_HandSoldering,,1276-2802-1-ND
+C3 ,1,10uF,Resistors_SMD:R_1206_HandSoldering,,478-8237-2-ND
+C4 ,1,100nF,Resistors_SMD:R_1206_HandSoldering,,399-1249-1-ND
+C5 ,1,470uF,Capacitors_SMD:c_elec_8x10,,493-2181-1-ND
+D1 D2 ,2,1n4148,Diodes_SMD:SOD-123,,1N4148WTPMSTR-ND
+D3 ,1,LED,LEDs:LED-5MM,,365-1203-ND
+D4 ,1,1N4148,Diodes_SMD:SOD-123,,1N4148WTPMSTR-ND
+H1 ,1,enclosure,,,377-1649-ND
+H2 ,1,pot_knob,,,GH7628-ND
+P1 ,1,aerial,,
+P2 ,1,aerial_gnd,,
+Q1 ,1,DMP3099L-7,TO_SOT_Packages_SMD:SOT-23_Handsoldering,,DMP3099L-7DICT-ND
+Q2 Q3 ,2,2N7002E,TO_SOT_Packages_SMD:SOT-23_Handsoldering,,2N7002ECT-ND
+R1 R2 R6 ,3,100k,Resistors_SMD:R_1206_HandSoldering,,P100KFCT-ND
+R10 ,1,330,Resistors_SMD:R_1206_HandSoldering,,311-330FRCT-ND
+R3 R5 ,2,1M,Resistors_SMD:R_1206_HandSoldering,,311-1.00MFRCT-ND
+R4 ,1,330k,Resistors_SMD:R_1206_HandSoldering,,311-330KFRCT-ND
+R7 ,1,680,Resistors_SMD:R_1206_HandSoldering,,311-680FRCT-ND
+R8 ,1,10M,Resistors_SMD:R_1206_HandSoldering,,311-10.0MFRCT-ND
+R9 ,1,1k,Resistors_SMD:R_1206_HandSoldering,,311-1.00KFRCT-ND
+RV1 ,1,50k,modules:PTV09A,,PTV09A-4025F-B503-ND
+SP1 ,1,piezo,modules:PS1420,,445-2526-3-ND
+SW1 ,1,on-off,Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx,,450-1642-ND
+U1 ,1,TL071IDT,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,497-2199-1-ND

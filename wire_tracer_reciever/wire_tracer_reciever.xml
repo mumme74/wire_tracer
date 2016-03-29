@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/fredrikjohansson/elektronik/wire_tracer_reciever/wire_tracer_reciever.sch</source>
+    <date>sön 28 feb 2016 20:10:15</date>
+    <tool>Eeschema 0.201602271447+6593~42~ubuntu14.04.1-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>wire_tracer_reciever.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_9v</value>
+      <footprint>Wire_Pads:SolderWirePad_2x_1-2mmDrill</footprint>
+      <fields>
+        <field name="digikey">BS6I-ND</field>
+      </fields>
+      <libsource lib="device" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2B2B9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100pF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">1276-2802-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2B3EF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">311-1.00MFRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2B437</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>50k</value>
+      <footprint>modules:PTV09A</footprint>
+      <fields>
+        <field name="digikey">PTV09A-4025F-B503-ND</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2B49B</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>aerial</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2B5CC</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TL071IDT</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="digikey">497-2199-1-ND</field>
+      </fields>
+      <libsource lib="linear" part="TL071"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2B64C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">311-1.00KFRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2B73F</tstamp>
+    </comp>
+    <comp ref="SP1">
+      <value>piezo</value>
+      <footprint>modules:PS1420</footprint>
+      <fields>
+        <field name="digikey">445-2526-3-ND</field>
+      </fields>
+      <libsource lib="device" part="SPEAKER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2B785</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">311-1.00MFRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2B97E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">399-1249-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2BC5D</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMP3099L-7</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="digikey">DMP3099L-7DICT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C0EB</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002E</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="digikey">2N7002ECT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C1ED</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002E</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="digikey">2N7002ECT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C2C4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">P100KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C391</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">P100KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C3FB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">1276-1068-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C437</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1n4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="digikey">1N4148WTPMSTR-ND</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C510</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>on-off</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <fields>
+        <field name="digikey">450-1642-ND</field>
+      </fields>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C5C4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">478-8237-2-ND</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C63C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">P100KFCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C696</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">311-330KFRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2C6DA</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <fields>
+        <field name="digikey">365-1203-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2CE93</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">311-680FRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2CF50</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>aerial_gnd</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2D503</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10M</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">311-10.0MFRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2D948</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>470uF</value>
+      <footprint>Capacitors_SMD:c_elec_8x10</footprint>
+      <fields>
+        <field name="digikey">493-2181-1-ND</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2DB1E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="digikey">1N4148WTPMSTR-ND</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2DDC4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1n4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <fields>
+        <field name="digikey">1N4148WTPMSTR-ND</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2EB20</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">311-330FRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2FFD3</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100pF</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="digikey">1276-2802-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D302C4</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>enclosure</value>
+      <fields>
+        <field name="digikey">377-1649-ND</field>
+      </fields>
+      <libsource lib="wire_tracer_reciever-cache" part="hardware"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D2E1CD</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>pot_knob</value>
+      <fields>
+        <field name="digikey">GH7628-ND</field>
+      </fields>
+      <libsource lib="wire_tracer_reciever-cache" part="hardware"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D33FA4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GSD">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GSD">
+      <description>Transistor P-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPEAKER">
+      <fields>
+        <field name="Reference">SP</field>
+        <field name="Value">SPEAKER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="TL071">
+      <aliases>
+        <alias>TL081</alias>
+      </aliases>
+      <description>Op amp.</description>
+      <docs>op_amps/tl071.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL071</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="passive"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wire_tracer_reciever-cache" part="hardware">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">hardware</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="wire_tracer_reciever-cache">
+      <uri>/home/fredrikjohansson/elektronik/wire_tracer_reciever/wire_tracer_reciever-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D2-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C3-Pad2)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="4" name="/VDD">
+      <node ref="C3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R5-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="SP1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R5-Pad2)">
+      <node ref="RV1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="Q2" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C6" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="SP1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="11" name="Net-(C2-Pad2)">
+      <node ref="P1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C5-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="14" name="Net-(BT1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+  </nets>
+</export>

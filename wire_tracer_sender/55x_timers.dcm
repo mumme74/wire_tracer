@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: Mon 06 Apr 2015 11:37:57 PM PDT
+#
+$CMP 555
+D LM555 Timer IC
+K 555 timer
+$ENDCMP
+#
+$CMP 556
+D LM556 Dual Timer IC
+K 556 dual timer
+$ENDCMP
+#
+#End Doc Library

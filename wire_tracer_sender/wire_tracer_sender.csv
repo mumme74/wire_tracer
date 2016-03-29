@@ -1,0 +1,31 @@
+Reference, Value, Footprint, Datasheet, digikey
+BT1,Battery 9V,Wire_Pads:SolderWirePad_2x_1-2mmDrill,,BS6I-ND
+R1,10k,Resistors_SMD:R_1206_HandSoldering,,311-10.0KFRCT-ND
+R2,100k,Resistors_SMD:R_1206_HandSoldering,,P100KFCT-ND
+C4,100n,Capacitors_SMD:C_1206_HandSoldering,,399-1249-1-ND
+U1,556,Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm,,296-26240-1-ND
+R10,2.2k,Resistors_SMD:R_1206_HandSoldering,,311-2.20KFRCT-ND
+R11,2.2k,Resistors_SMD:R_1206_HandSoldering,,311-2.20KFRCT-ND
+C5,100n,Capacitors_SMD:C_1206_HandSoldering,,399-1249-1-ND
+R9,10k,Resistors_SMD:R_1206_HandSoldering,,311-10.0KFRCT-ND
+C6,1uF,Capacitors_SMD:C_1206_HandSoldering,,1276-1068-1-ND
+P1,cable_test_out,Wire_Pads:SolderWirePad_2x_1-5mmDrill,, 
+C1,1uF,Capacitors_SMD:C_1206_HandSoldering,,1276-1068-1-ND
+R3,100k,Resistors_SMD:R_1206_HandSoldering,,P100KFCT-ND
+R4,100k,Resistors_SMD:R_1206_HandSoldering,,P100KFCT-ND
+C2,1uF,Capacitors_SMD:C_1206_HandSoldering,,1276-1068-1-ND
+SW1,on-off,Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx,,450-1642-ND
+R7,100k,Resistors_SMD:R_1206_HandSoldering,,P100KFCT-ND
+C3,10uF,Capacitors_SMD:C_1206_HandSoldering,,478-8237-2-ND
+R5,330k,Resistors_SMD:R_1206_HandSoldering,,311-330KFRCT-ND
+D2,LED,LEDs:LED-5MM,,365-1203-ND
+R8,680,Resistors_SMD:R_1206_HandSoldering,,311-680FRCT-ND
+U2,4020,Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,,497-7235-1-ND
+R6,2.2k,Resistors_SMD:R_1206_HandSoldering,,311-2.20KFRCT-ND
+R12,2.2k,Resistors_SMD:R_1206_HandSoldering,,311-2.20KFRCT-ND
+D1,1n4148,Diodes_SMD:SOD-123,,1N4148WTPMSTR-ND
+Q2,DMP3099L-7,TO_SOT_Packages_SMD:SOT-23_Handsoldering,,DMP3099L-7DICT-ND
+Q1,DMP3099L-7,TO_SOT_Packages_SMD:SOT-23_Handsoldering,,DMP3099L-7DICT-ND
+Q3,2N7002E,TO_SOT_Packages_SMD:SOT-23_Handsoldering,,2N7002ECT-ND
+Q4,2N7002E,TO_SOT_Packages_SMD:SOT-23_Handsoldering,,2N7002ECT-ND
+H1,enclosure,,,377-1649-ND
